@@ -91,7 +91,7 @@ NO:
 event UpdatedOwner(address newOwner);
 ```
 
-##### C. Order event parameters in chronological order.
+##### C. Events logging updated values should follow the convention: `previous, new`
 
 When choosing to log both the previous and new values, the previous value should be placed before the new value.
 
