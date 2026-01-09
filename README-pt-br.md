@@ -449,3 +449,14 @@ Se você estiver usando a tag `@author`, ela deve ser
 ```
 
 Seguido opcionalmente por um link para o repositório público no Github.
+
+#### 5. Inclua um contato de segurança.
+
+Inclua a tag `@custom:security-contact` no NatSpec de nível superior do contrato. Esta tag NatSpec personalizada (reconhecida pelo Etherscan e outras ferramentas de verificação) informa aos usuários e auditores onde relatar vulnerabilidades de segurança.
+
+```solidity
+/// @custom:security-contact security@example.com
+contract MyContract {
+  ...
+}
+```
