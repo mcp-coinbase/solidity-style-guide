@@ -452,10 +452,10 @@ Seguido opcionalmente por um link para o repositório público no Github.
 
 #### 5. Inclua um contato de segurança.
 
-Inclua a tag `@custom:security-contact` no NatSpec de nível superior do contrato. Esta tag NatSpec personalizada (reconhecida pelo Etherscan e outras ferramentas de verificação) informa aos usuários e auditores onde relatar vulnerabilidades de segurança.
+Inclua a tag `@custom:security-contact` no NatSpec de nível superior do contrato. Esta tag NatSpec personalizada (reconhecida pelo Etherscan e outras ferramentas de verificação) informa aos usuários e auditores onde relatar vulnerabilidades de segurança. Para contratos da Coinbase, use `security@coinbase.com`.
 
 ```solidity
-/// @custom:security-contact security@example.com
+/// @custom:security-contact security@coinbase.com
 contract MyContract {
   ...
 }
